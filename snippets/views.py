@@ -49,3 +49,12 @@ def snippet_detail(request, pk):
     elif request.method == 'DELETE':
         snippet.delete()
         return HttpResponse(status=204)
+
+    # def snippet_list(request, format=None):
+    #     pass
+    #
+    # def snippet_detail(request, pk, format=None):
+    #     pass
+
+
+
